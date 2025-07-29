@@ -1,0 +1,48 @@
+{
+	"prc_blank_mmrTypes": ["ZCAP","ZUNB","ZCHP"],
+	
+	"hmcc_MGroup":  ["BOI0047","BOI0048","BOI0055","BOI0056","BOI0061","BOI0062","BOI0088"],
+	
+	"hmcc_Commodity": [37,62,76,110,187,304,309,311,327,349,351,370,375,396,530,531,670,968,1007,1025,1053,1154,1341,1344,1345,1358,1392,1393,1394,1398,1399,1553,1554,1566,1631],
+		
+	"edp_MGroup":  ["BOI0074","BOI0078"],
+	
+	"edp_Commodity":  [103,104,114,178,536,609,628,729,922,929,1013,1015,1062,1102,1132,1192,1231,1234,1333,1446,1447,1514,1562,1674],
+		
+	"direct_materials":["ZROH", "ZCOM", "ZFER", "ZHAL"],
+	
+	"less_considered_materials" : ["ZCAP", "ZUNB", "ZCHP"],
+	
+	"s_prc_ctrl_materials" : ["ZFER", "ZHAL"],
+	
+	"matl_type_ValCls_combo" : [{"ZFER": [1400]} ,{"ZHAL":[1300]}, {"ZCOM": [1110, 1100, 1130, 1140]}, {"ZROH":[1000, 1010, 1030, 1040]}],
+	
+	"tgv_group_dept_combo" : {"BOI0091": ["ENGG", "FIN"]},
+	
+	"grpTypValDept":  [  { "group":"BOI0047", "value" : [{"type": "ZHIB", "ValCls":"1540", "Dept":"COMMON"}]},{ "group":"BOI0056", "value" : [{"type": "ZHIB", "ValCls":"1540", "Dept":"COMMON"}]},
+    { "group":"BOI0057", "value" : [{"type": "ZHIB", "ValCls":"1540", "Dept":"COMMON"}]}, { "group":"BOI0058", "value" : [{"type": "ZUNB", "ValCls":"0", "Dept":"COMMON"}]},
+	{ "group":"BOI0059", "value" : [{"type": "ZVER", "ValCls":"1800", "Dept":"COMMON"},	
+						  			{"type": "ZCHP", "ValCls":"0", "Dept":"COMMON"}]},
+	{ "group":"BOI0061", "value" : [{"type": "ZHIB", "ValCls":"1540", "Dept":"COMMON"}]}, { "group":"BOI0062", "value" : [{"type": "ZHIB", "ValCls":"1540", "Dept":"COMMON"}]},
+	{ "group":"BOI0066", "value" : [{"type": "ZUNB", "ValCls":"0", "Dept":"COMMON"}]},  	{ "group":"BOI0069", "value" : [{"type": "ZTOL", "ValCls":"1600", "Dept":"COMMON"}]},
+    { "group":"BOI0070", "value" : [{"type": "ZCAP", "ValCls":"0", "Dept":"COMMON"}]},	    { "group":"BOI0071", "value" : [{"type": "ZTOL", "ValCls":"1600", "Dept":"COMMON"}]},
+	{ "group":"BOI0072", "value" : [{"type": "ZGAG", "ValCls":"1610", "Dept":"COMMON"}]}, 
+	{ "group":"BOI0074", "value" : [{"type": "ZUNB", "ValCls":"0", "Dept":"COMMON"}, {"type": "ZCAP", "ValCls":"0", "Dept":"COMMON"}]}, 
+	{ "group":"BOI0075", "value" : [{"type": "ZUNB", "ValCls":"0", "Dept":"COMMON"}, {"type": "ZCAP", "ValCls":"0", "Dept":"COMMON"}]},  
+	{ "group":"BOI0076", "value" : [{"type": "ZCAP", "ValCls":"0", "Dept":"COMMON"}]},     
+	{ "group":"BOI0077", "value" : [{"type": "ZUNB", "ValCls":"0", "Dept":"COMMON"}]}, 	{ "group":"BOI0078", "value" : [{"type": "ZUNB", "ValCls":"0", "Dept":"COMMON"}]},    
+	{ "group":"BOI0079", "value" : [{"type": "ZCAP", "ValCls":"0", "Dept":"COMMON"}]},     { "group":"BOI0081", "value" : [{"type": "ZTOL", "ValCls":"1600", "Dept":"COMMON"}]},
+    { "group":"BOI0082", "value" : [{"type": "ZUNB", "ValCls":"0", "Dept":"COMMON"}]},     { "group":"BOI0084", "value" : [{"type": "ZERS", "ValCls":"1520", "Dept":"COMMON"}]},
+    { "group":"BOI0085", "value" : [{"type": "ZERS", "ValCls":"1510", "Dept":"COMMON"}]}, { "group":"BOI0086", "value" : [{"type": "ZERS", "ValCls":"1500", "Dept":"COMMON"}]},
+	{ "group":"BOI0087", "value" : [{"type": "ZERS", "ValCls":"1530", "Dept":"COMMON"}]},
+	{ "group":"BOI0091", "value" : [{"type": "ZERS", "ValCls":"1520", "Dept":"ENGG/FIN"}, {"type": "ZERS", "ValCls":"1510", "Dept":"ENGG/FIN"},
+						  			{"type": "ZERS", "ValCls":"1500", "Dept":"ENGG/FIN"}, {"type": "ZERS", "ValCls":"1530", "Dept":"ENGG/FIN"},
+						  			{"type": "ZHIB", "ValCls":"1540", "Dept":"ENGG/FIN"}, {"type": "ZTOL", "ValCls":"1600", "Dept":"ENGG/FIN"},
+						  			{"type": "ZGAG", "ValCls":"1610", "Dept":"ENGG/FIN"}, {"type": "ZUNB", "ValCls":"0", "Dept":"ENGG/FIN"},
+						 	 		{"type": "ZCAP", "ValCls":"0", "Dept":"ENGG/FIN"}, {"type": "ZVER", "ValCls":"1800", "Dept":"ENGG/FIN"},
+									{"type": "ZCHP", "ValCls":"0", "Dept":"ENGG/FIN"}]},
+	{ "group":"BOI0073", "value" : [{"type": "ZUNB", "ValCls":"0", "Dept":"COMMON"}, {"type": "ZCAP", "ValCls":"0", "Dept":"COMMON"}]},
+	{ "group":"BOI0093", "value" : [{"type": "ZCAP", "ValCls":"0", "Dept":"COMMON"}]},
+	{ "group":"BOI0096", "value" : [{"type": "ZTOL", "ValCls":"1600", "Dept":"COMMON"}]},
+    { "group":"BOI0099", "value" : [{"type": "ZUNB", "ValCls":"0", "Dept":"COMMON"}, {"type": "ZCAP", "ValCls":"0", "Dept":"COMMON"}]} ]
+}
